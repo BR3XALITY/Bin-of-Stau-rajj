@@ -12,7 +12,7 @@ end
 
 -- Double the arm's length
 local originalSize = arm.Size
-arm.Size = Vector3.new(originalSize.X, originalSize.Y * 10, originalSize.Z)
+arm.Size = Vector3.new(originalSize.X, originalSize.Y , originalSize.Z)
 
 -- Reposition the arm so that its top meets the bottom of the torso
 local rotationCorrection = CFrame.Angles(math.rad(90), 0, 0)
